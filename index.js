@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
 const {MONGO_DB_CONFIG} = require("./config/app.config");
-const cors = require('cors');
+const cors = require("cors");
 
 //CONNECTION TO MONGODB
 mongoose.connect(MONGO_DB_CONFIG.DB,{

@@ -2,7 +2,7 @@
 use('react-tutorial1-react_portfolio');
 
 // Insert a few documents into the PortfolioData collection.
-db.getCollection('projects').insertMany(
+db.getCollection('portfolio').insertMany(
     [
         {
           

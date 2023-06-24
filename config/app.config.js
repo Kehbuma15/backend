@@ -1,8 +1,8 @@
 
-require("dotenv").config;
+require('dotenv').config();
 
 const MONGO_DB_CONFIG = {
-    DB:'mongodb+srv://kehbuma185:MPl90BMIUmdbArEY@reactbackendportfolio.er28ip8.mongodb.net/?retryWrites=true&w=majority'
+    DB:'mongodb+srv://kehbuma185:MPl90BMIUmdbArEY@reactbackendportfolio.er28ip8.mongodb.net/ReactBackendProject?retryWrites=true&w=majority'
 }
 
 module.exports = {
